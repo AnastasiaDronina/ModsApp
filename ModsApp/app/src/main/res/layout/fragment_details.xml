@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.details.DetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:paddingBottom="127dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <TextView
+            android:id="@+id/tv_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/DetailsTitle"
+            tools:text="Et velit nulla exercitation deserunt proident consequat."
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_details_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:textAppearance="@style/DetailsText"
+            android:textIsSelectable="true"
+            tools:text=" . Esse nostrud cillum dolore nulla eu elit est id mollit aliqua nulla Lorem cillum sunt. Labore ut magna esse do enim occaecat. Laboris anim exercitation incididunt reprehenderit. . Esse nostrud cillum dolore nulla eu elit est id mollit aliqua nulla Lorem cillum sunt. Labore ut magna esse do enim occaecat. Laboris anim exercitation incididunt reprehenderit. . Esse nostrud cillum dolore nulla eu elit est id mollit aliqua nulla Lorem cillum sunt. Labore ut magna esse do enim occaecat. Laboris anim exercitation incididunt reprehenderit." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_download"
+            style="@style/AppTheme.Button"
+            android:layout_width="283dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/download" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

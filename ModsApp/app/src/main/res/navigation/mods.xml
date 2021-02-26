@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mods"
+    app:startDestination="@id/modesFragment">
+
+    <fragment
+        android:id="@+id/modesFragment"
+        android:name="com.dronina.modsapp.ui.mods.ModsFragment"
+        tools:layout="@layout/fragment_mods" >
+        <action
+            android:id="@+id/action_mods_to_details"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.dronina.modsapp.ui.details.DetailsFragment"
+        tools:layout="@layout/fragment_details" />
+</navigation>

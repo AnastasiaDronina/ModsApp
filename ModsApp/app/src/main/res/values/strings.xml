@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ModsApp</string>
+
+    <string name="loading">Loading</string>
+    <string name="mods">Mods</string>
+    <string name="favorites">Favorites</string>
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="install">Install</string>
+</resources>
